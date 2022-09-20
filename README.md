@@ -5,6 +5,9 @@ uses the OpusTools library (Aulamo et al., 2020) to download data from
 the OPUS corpus collection (Tiedemann, 2012), but can be used with any
 corpora in raw text format.
 
+This is a fork from [Helsinki-NLP/OpusFilter](https://github.com/Helsinki-NLP/OpusFilter).
+We seeks to aggressively refactor the original project.
+
 Features:
 
 * Corpus preprocessing pipelines configured with [YAML](https://yaml.org/)
@@ -16,7 +19,7 @@ Features:
 
 OpusFilter has been presented in [ACL 2020 system demonstrations](https://www.aclweb.org/anthology/2020.acl-demos.20).
 
-See the [documentation](https://github.com/) for more information and examples.
+See the [documentation](https://nmt-hub.github.io/filter/) for more information and examples.
 
 A changelog is available in [docs/CHANGELOG.md](docs/CHANGELOG.md).
 
